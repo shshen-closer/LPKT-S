@@ -1,12 +1,12 @@
-# LPKT and LPKT-S tensorflow_version
+# LPKT-S and LPKT tensorflow_version
 
 Source code and data set for the paper Monitoring Student Progress for Learning Process-consistent Knowledge Tracing.
 
 The code is the implementation of LPKT and LPKT-S model, and the data set is the public data set [ASSIST2012-2013](https://sites.google.com/site/assistmentsdata/home/2012-13-school-data-withaffect).
 
-If this code helps with your studies, please kindly cite the following publication:
+If this code helps with your studies, please kindly cite the [following publication](https://ieeexplore.ieee.org/document/9950313):
 ```
-to be updated
+@ARTICLE{9950313,  author={Shen, Shuanghong and Chen, Enhong and Liu, Qi and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},  journal={IEEE Transactions on Knowledge and Data Engineering},   title={Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing},   year={2022},  volume={},  number={},  pages={1-15},  doi={10.1109/TKDE.2022.3221985}}
 ```
 
 ## Dependencies:
