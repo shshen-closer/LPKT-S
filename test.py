@@ -18,8 +18,7 @@ import json
 
 # Parameters
 # ==================================================
-#seq_len= int(sys.argv[1])
-#batch_size = int(sys.argv[2])
+
 logger = dh.logger_fn("tflog", "logs/test-{0}.log".format(time.asctime()).replace(':', '_'))
 file_name = sys.argv[1]
 
@@ -207,7 +206,7 @@ def test():
             acc = np.mean(pred_score.astype(int))
             print("epochs {0}: rmse {1:g}  auc {2:g}  r2 {3:g}  acc {4:g}".format(0,rmse, auc, r2, acc))
             logger.info("epochs {0}: rmse {1:g}  auc {2:g}  r2 {3:g}  acc {4:g}".format(0,rmse, auc, r2, acc))
-            os.remove('output')
+        #    os.remove('output')
             print(np.shape(pred_labels))
             print(len(leng))
             fo =  open('output', 'a') 
@@ -248,11 +247,7 @@ def test():
                 fo.write('\n')
                     
             fo.close()
-           # np.save('result/pred_'  + number, pred_labels)
 
-                
-                
-            
 
     logger.info("Done.")
 
