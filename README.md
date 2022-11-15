@@ -6,7 +6,15 @@ The code is the implementation of LPKT and LPKT-S model, and the data set is the
 
 If this code helps with your studies, please kindly cite the [following publication](https://ieeexplore.ieee.org/document/9950313):
 ```
-@ARTICLE{9950313,  author={Shen, Shuanghong and Chen, Enhong and Liu, Qi and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},  journal={IEEE Transactions on Knowledge and Data Engineering},   title={Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing},   year={2022},  volume={},  number={},  pages={1-15},  doi={10.1109/TKDE.2022.3221985}}
+@ARTICLE{9950313,  
+author={Shen, Shuanghong and Chen, Enhong and Liu, Qi and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},  
+journal={IEEE Transactions on Knowledge and Data Engineering},   
+title={Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing},   
+year={2022},  
+volume={},  
+number={},  
+pages={1-15},  
+doi={10.1109/TKDE.2022.3221985}}
 ```
 
 ## Dependencies:
