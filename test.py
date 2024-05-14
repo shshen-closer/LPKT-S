@@ -233,7 +233,7 @@ def test():
                 fo.write(str(at_l) + '\n')
                 fo.write(str(it_l) + '\n')
                 ppp = o_l[:len_l]
-                ppp = [2/ (1 + np.exp(-0.03*x)) - 1 for x in ppp]
+                ppp = [2/ (1 + np.exp(-0.03*x)) - 1 for x in ppp]   #可以吧-0.03换成其它值，更好地将知识状态映射到0-1之间进行可视化
                 print(ppp)
                 for iii in ppp:
                     fo.write(str(round(iii,2)) + '\t')
